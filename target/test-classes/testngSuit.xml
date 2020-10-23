@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CadastroPessoa" verbose="1"> <!--Nome da suite por exemplo nome de um módulo do sistema -->
+
+    <!-- <test name="CadastroPessoa">  >>>isto é um comentario, remova: Nome deste grupo de testes
+        <classes>
+            <class
+                    name="tests.CadastrarPessoaTest" />
+            <class
+                    name="tests.ValidarCamposObrigatoriosPessoaTest" />
+        </classes>
+    </test> -->
+
+
+    <test name="Regression1">
+        <packages>
+            <package name="tests" />
+        </packages>
+    </test>
+
+
+
+</suite>
